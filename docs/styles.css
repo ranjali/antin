@@ -2,8 +2,8 @@
 
 /* General body styles */
 body {
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 20; /* Remove default margin */
+    padding: 20; /* Remove default padding */
     font-family: Arial, sans-serif; /* Set a clean font */
     background-color: #f8f9fa; /* Light background color for contrast */
     color: #333; /* Dark text color */
@@ -20,12 +20,12 @@ body {
 /* Title styles */
 h1 {
     text-align: center; /* Center the title */
-    font-size: 2em; /* Larger font size for the title */
+    font-size: 3em; /* Larger font size for the title */
     margin-bottom: 20px; /* Space below the title */
 }
 
 /* Paragraph styles */
 p {
     margin-bottom: 20px; /* Space between paragraphs */
-    font-size: 1em; /* Font size for readability */
+    font-size: 1.5em; /* Font size for readability */
 }
