@@ -24,7 +24,9 @@ h1 {
     margin-bottom: 20px; /* Space below the title */
 }
 
-/* Paragraph styles */
-p {
+/* Preformatted text styles */
+pre {
+    white-space: pre-wrap; /* Ensure text wraps */
     margin-bottom: 20px; /* Space between paragraphs */
+    font-size: 1em; /* Font size for readability */
 }
