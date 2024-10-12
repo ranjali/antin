@@ -1,62 +1,30 @@
-/* Reset styles for consistency across browsers */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* styles.css */
 
-body, html {
-  font-family: Arial, sans-serif;
-  line-height: 1.5; /* Line spacing */
-  height: 100%;
-  margin: 0;
-  padding: 20px;
-}
-
-/* Ensures that content fills the screen on any device */
+/* General body styles */
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    background-color: #f8f9fa; /* Light background color for contrast */
+    color: #333; /* Dark text color */
+    line-height: 1.5; /* Line height for readability */
 }
 
-/* Container to hold the content */
+/* Content wrapper to center the text and make it responsive */
 .content {
-  max-width: 800px;
-  width: 100%;
+    max-width: 800px; /* Limit the width on larger screens */
+    margin: 20px auto; /* Center the content with margin */
+    padding: 20px; /* Add padding for spacing */
 }
 
-/* Centering the title */
+/* Title styles */
 h1 {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
+    text-align: center; /* Center the title */
+    font-size: 2em; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
 }
 
-/* Styling the paragraphs */
+/* Paragraph styles */
 p {
-  margin-bottom: 20px; /* Paragraph spacing */
-  text-align: justify;
-}
-
-/* Preformatted text compatibility */
-pre {
-  white-space: pre-wrap; /* Ensures wrapping of preformatted text */
-  font-family: inherit;
-}
-
-/* Responsive design for mobile */
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 16px;
-  }
+    margin-bottom: 20px; /* Space between paragraphs */
 }
