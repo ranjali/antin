@@ -1,0 +1,62 @@
+/* Reset styles for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  line-height: 1.5; /* Line spacing */
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Ensures that content fills the screen on any device */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container to hold the content */
+.content {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Centering the title */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling the paragraphs */
+p {
+  margin-bottom: 20px; /* Paragraph spacing */
+  text-align: justify;
+}
+
+/* Preformatted text compatibility */
+pre {
+  white-space: pre-wrap; /* Ensures wrapping of preformatted text */
+  font-family: inherit;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
